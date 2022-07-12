@@ -50,7 +50,6 @@ extension String {
         return self.substring(range: index..<index)
     }
     
-    
     // MARK: replace
     func replace(target: String, with withString: String) -> String{
         return self.replacingOccurrences(of: target, with: withString, options: .literal, range: nil)

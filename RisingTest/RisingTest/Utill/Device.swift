@@ -52,6 +52,3 @@ struct Device {
         return UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0
     }
 }
-
-
-

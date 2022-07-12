@@ -13,7 +13,6 @@ target 'RisingTest' do
     pod 'Tabman', '~> 2.12'
     pod 'Alamofire'
     pod 'Kingfisher', '~> 7.0'
-    pod 'SwiftLint'
     pod 'RxKakaoSDKCommon'  
     pod 'RxKakaoSDKAuth'  
     pod 'RxKakaoSDKUser'  
@@ -26,4 +25,5 @@ target 'RisingTest' do
     pod 'GoogleSignIn'
     pod 'FirebaseAuth'
     pod 'FirebaseFirestore'
+    pod 'SwiftLint'
 end
