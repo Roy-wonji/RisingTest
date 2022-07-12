@@ -23,6 +23,7 @@
 		7F65EEC7287D9A0700430DCB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEC6287D9A0700430DCB /* UIButton.swift */; };
 		7F65EEC9287D9A2D00430DCB /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEC8287D9A2D00430DCB /* UIViewController.swift */; };
 		7F65EECB287D9A4800430DCB /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EECA287D9A4800430DCB /* UINavigationBar.swift */; };
+		7F65EED6287DADED00430DCB /*  .swiftlint.yml  in Resources */ = {isa = PBXBuildFile; fileRef = 7F65EED5287DADED00430DCB /*  .swiftlint.yml  */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		7F65EEC6287D9A0700430DCB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		7F65EEC8287D9A2D00430DCB /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		7F65EECA287D9A4800430DCB /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		7F65EED5287DADED00430DCB /*  .swiftlint.yml  */ = {isa = PBXFileReference; lastKnownFileType = text; path = " .swiftlint.yml "; sourceTree = "<group>"; };
 		97BF6AA79D23C2CD654B5E1F /* Pods-RisingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.debug.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		7F65EE92287D96F100430DCB = {
 			isa = PBXGroup;
 			children = (
+				7F65EED5287DADED00430DCB /*  .swiftlint.yml  */,
 				7F65EE9D287D96F100430DCB /* RisingTest */,
 				7F65EE9C287D96F100430DCB /* Products */,
 				92C74D1747661E1EBEA9227C /* Pods */,
@@ -211,7 +214,6 @@
 				97BF6AA79D23C2CD654B5E1F /* Pods-RisingTest.debug.xcconfig */,
 				47964126A83B54ECB94E7124 /* Pods-RisingTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 				7F65EE98287D96F100430DCB /* Frameworks */,
 				7F65EE99287D96F100430DCB /* Resources */,
 				A895582DF7F840CD883EC518 /* [CP] Embed Pods Frameworks */,
+				7F65EED4287DAD9600430DCB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -277,12 +280,30 @@
 			files = (
 				7F65EEAB287D96F300430DCB /* LaunchScreen.storyboard in Resources */,
 				7F65EEA8287D96F300430DCB /* Assets.xcassets in Resources */,
+				7F65EED6287DADED00430DCB /*  .swiftlint.yml  in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7F65EED4287DAD9600430DCB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint autocorrect\"\nfi\n";
+		};
 		881EEE55C2EFEB08B8DCA13D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
