@@ -25,6 +25,9 @@
 		7F65EECB287D9A4800430DCB /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EECA287D9A4800430DCB /* UINavigationBar.swift */; };
 		7FCEE378287DB4C900506CEA /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE377287DB4C900506CEA /* ViewLayout.swift */; };
 		7FCEE37D287DC34100506CEA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7FCEE37C287DC34100506CEA /* .swiftlint.yml */; };
+		7FCEE380287DD53600506CEA /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE37F287DD53600506CEA /* DisplayMode.swift */; };
+		7FCEE382287DD56800506CEA /* TabmanBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE381287DD56800506CEA /* TabmanBar.swift */; };
+		7FCEE384287DD5AC00506CEA /* TabBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE383287DD5AC00506CEA /* TabBarIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		7F65EECA287D9A4800430DCB /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		7FCEE377287DB4C900506CEA /* ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
 		7FCEE37C287DC34100506CEA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		7FCEE37F287DD53600506CEA /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		7FCEE381287DD56800506CEA /* TabmanBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabmanBar.swift; sourceTree = "<group>"; };
+		7FCEE383287DD5AC00506CEA /* TabBarIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIndicator.swift; sourceTree = "<group>"; };
 		97BF6AA79D23C2CD654B5E1F /* Pods-RisingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.debug.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +156,7 @@
 		7F65EEBF287D998500430DCB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7FCEE37E287DD51600506CEA /* TabBar */,
 				7F65EEC0287D99AE00430DCB /* String.swift */,
 				7F65EEC2287D99CF00430DCB /* Date.swift */,
 				7F65EEC4287D99E800430DCB /* UIColor.swift */,
@@ -209,6 +216,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7FCEE37E287DD51600506CEA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7FCEE37F287DD53600506CEA /* DisplayMode.swift */,
+				7FCEE381287DD56800506CEA /* TabmanBar.swift */,
+				7FCEE383287DD5AC00506CEA /* TabBarIndicator.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		92C74D1747661E1EBEA9227C /* Pods */ = {
@@ -355,10 +372,12 @@
 			files = (
 				7F65EEB8287D986D00430DCB /* SecretKey.swift in Sources */,
 				7F65EECB287D9A4800430DCB /* UINavigationBar.swift in Sources */,
+				7FCEE382287DD56800506CEA /* TabmanBar.swift in Sources */,
 				7FCEE378287DB4C900506CEA /* ViewLayout.swift in Sources */,
 				7F65EEA3287D96F100430DCB /* ViewController.swift in Sources */,
 				7F65EEC9287D9A2D00430DCB /* UIViewController.swift in Sources */,
 				7F65EE9F287D96F100430DCB /* AppDelegate.swift in Sources */,
+				7FCEE380287DD53600506CEA /* DisplayMode.swift in Sources */,
 				7F65EEA1287D96F100430DCB /* SceneDelegate.swift in Sources */,
 				7F65EEBC287D992400430DCB /* IndicatorView.swift in Sources */,
 				7F65EEBE287D994100430DCB /* Device.swift in Sources */,
@@ -366,6 +385,7 @@
 				7F65EEC3287D99CF00430DCB /* Date.swift in Sources */,
 				7F65EEC7287D9A0700430DCB /* UIButton.swift in Sources */,
 				7F65EEB5287D97D100430DCB /* Constant.swift in Sources */,
+				7FCEE384287DD5AC00506CEA /* TabBarIndicator.swift in Sources */,
 				7F65EEC5287D99E800430DCB /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
