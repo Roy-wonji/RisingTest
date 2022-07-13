@@ -35,6 +35,4 @@ extension UIButton {
         attributedTitle.append(NSMutableAttributedString(string: secondPart, attributes: boldAtts))
         setAttributedTitle(attributedTitle, for: .normal)
     }
-    
 }
-

@@ -14,7 +14,6 @@ open class IndicatorView {
 
     open func show() {
         let window = UIWindow(frame: UIScreen.main.bounds)
-        
         self.containerView.frame = window.frame
         self.containerView.center = window.center
         self.containerView.backgroundColor = .clear

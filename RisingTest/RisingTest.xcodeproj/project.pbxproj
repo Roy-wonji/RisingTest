@@ -10,7 +10,7 @@
 		31C404A53547B3AAF1FB3255 /* Pods_RisingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DABBB413351887B4B619525 /* Pods_RisingTest.framework */; };
 		7F65EE9F287D96F100430DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EE9E287D96F100430DCB /* AppDelegate.swift */; };
 		7F65EEA1287D96F100430DCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEA0287D96F100430DCB /* SceneDelegate.swift */; };
-		7F65EEA3287D96F100430DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEA2287D96F100430DCB /* ViewController.swift */; };
+		7F65EEA3287D96F100430DCB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEA2287D96F100430DCB /* MainViewController.swift */; };
 		7F65EEA8287D96F300430DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F65EEA7287D96F300430DCB /* Assets.xcassets */; };
 		7F65EEAB287D96F300430DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F65EEA9287D96F300430DCB /* LaunchScreen.storyboard */; };
 		7F65EEB5287D97D100430DCB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65EEB4287D97D100430DCB /* Constant.swift */; };
@@ -28,6 +28,7 @@
 		7FCEE380287DD53600506CEA /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE37F287DD53600506CEA /* DisplayMode.swift */; };
 		7FCEE382287DD56800506CEA /* TabmanBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE381287DD56800506CEA /* TabmanBar.swift */; };
 		7FCEE384287DD5AC00506CEA /* TabBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE383287DD5AC00506CEA /* TabBarIndicator.swift */; };
+		7FCEE386287EE8CB00506CEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE385287EE8CB00506CEA /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,7 @@
 		7F65EE9B287D96F100430DCB /* RisingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F65EE9E287D96F100430DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F65EEA0287D96F100430DCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F65EEA2287D96F100430DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F65EEA2287D96F100430DCB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7F65EEA7287D96F300430DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F65EEAA287D96F300430DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F65EEAC287D96F300430DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		7FCEE37F287DD53600506CEA /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		7FCEE381287DD56800506CEA /* TabmanBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabmanBar.swift; sourceTree = "<group>"; };
 		7FCEE383287DD5AC00506CEA /* TabBarIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIndicator.swift; sourceTree = "<group>"; };
+		7FCEE385287EE8CB00506CEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		97BF6AA79D23C2CD654B5E1F /* Pods-RisingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.debug.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +184,8 @@
 		7F65EECD287D9A9B00430DCB /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7F65EEA2287D96F100430DCB /* ViewController.swift */,
+				7F65EEA2287D96F100430DCB /* MainViewController.swift */,
+				7FCEE385287EE8CB00506CEA /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -371,10 +374,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F65EEB8287D986D00430DCB /* SecretKey.swift in Sources */,
+				7FCEE386287EE8CB00506CEA /* MainView.swift in Sources */,
 				7F65EECB287D9A4800430DCB /* UINavigationBar.swift in Sources */,
 				7FCEE382287DD56800506CEA /* TabmanBar.swift in Sources */,
 				7FCEE378287DB4C900506CEA /* ViewLayout.swift in Sources */,
-				7F65EEA3287D96F100430DCB /* ViewController.swift in Sources */,
+				7F65EEA3287D96F100430DCB /* MainViewController.swift in Sources */,
 				7F65EEC9287D9A2D00430DCB /* UIViewController.swift in Sources */,
 				7F65EE9F287D96F100430DCB /* AppDelegate.swift in Sources */,
 				7FCEE380287DD53600506CEA /* DisplayMode.swift in Sources */,
