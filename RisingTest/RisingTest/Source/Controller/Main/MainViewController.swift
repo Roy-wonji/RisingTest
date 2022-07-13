@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import SwiftUI
 
-final class MainViewController: UIViewController {
+ class MainViewController: UIViewController {
     //MARK:  - Properties
 
     private let scrollView = MainView()
