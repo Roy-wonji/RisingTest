@@ -32,6 +32,7 @@
 		7FCEE391287F1C9700506CEA /* RisingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE390287F1C9700506CEA /* RisingTestTests.swift */; };
 		7FCEE3A7288050B100506CEA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE3A6288050B000506CEA /* BaseViewController.swift */; };
 		7FCEE3A92880512E00506CEA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE3A82880512E00506CEA /* BaseView.swift */; };
+		7FCEE3AC288053F700506CEA /* Cellidentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCEE3AB288053F700506CEA /* Cellidentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		7FCEE390287F1C9700506CEA /* RisingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisingTestTests.swift; sourceTree = "<group>"; };
 		7FCEE3A6288050B000506CEA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7FCEE3A82880512E00506CEA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7FCEE3AB288053F700506CEA /* Cellidentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cellidentifier.swift; sourceTree = "<group>"; };
 		97BF6AA79D23C2CD654B5E1F /* Pods-RisingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingTest.debug.xcconfig"; path = "Target Support Files/Pods-RisingTest/Pods-RisingTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,6 +231,7 @@
 		7F65EECF287D9ABC00430DCB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7FCEE3AA288053E600506CEA /* Common */,
 				7F65EEA7287D96F300430DCB /* Assets.xcassets */,
 				7F65EEA9287D96F300430DCB /* LaunchScreen.storyboard */,
 			);
@@ -265,6 +268,14 @@
 				7FCEE390287F1C9700506CEA /* RisingTestTests.swift */,
 			);
 			path = RisingTestTests;
+			sourceTree = "<group>";
+		};
+		7FCEE3AA288053E600506CEA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7FCEE3AB288053F700506CEA /* Cellidentifier.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		92C74D1747661E1EBEA9227C /* Pods */ = {
@@ -458,6 +469,7 @@
 				7F65EEC7287D9A0700430DCB /* UIButton.swift in Sources */,
 				7F65EEB5287D97D100430DCB /* Constant.swift in Sources */,
 				7FCEE384287DD5AC00506CEA /* TabBarIndicator.swift in Sources */,
+				7FCEE3AC288053F700506CEA /* Cellidentifier.swift in Sources */,
 				7F65EEC5287D99E800430DCB /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
