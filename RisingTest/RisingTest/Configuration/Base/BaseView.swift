@@ -1,26 +1,24 @@
 //
-//  MainView.swift
+//  BaseView.swift
 //  RisingTest
 //
-//  Created by 서원지 on 2022/07/13.
+//  Created by 서원지 on 2022/07/14.
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
-import Then
 
-final class MainView: UIView {
-    //MARK:  - Prperties
+
+final class BaseView: UIView {
+    //MARK: - Properties
     
+    //MARK:  - Lifecylce
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .white
-
+        
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

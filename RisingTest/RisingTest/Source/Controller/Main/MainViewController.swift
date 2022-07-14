@@ -13,10 +13,10 @@ import SwiftUI
  class MainViewController: UIViewController {
     //MARK:  - Properties
 
-    private let scrollView = MainView()
+    private let mainView = MainView()
     
     override func loadView() {
-        view = scrollView
+        view = mainView
     }
     //MARK: - Lifecycle
     override func viewDidLoad() {

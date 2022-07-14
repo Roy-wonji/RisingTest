@@ -5,6 +5,10 @@ disabled_rules :
 - trailing_whitespace
 - mark
 - comment_spacing
+- operator_usage_whitespace
+- closure_spacing
+- implicitly_unwrapped_optional
+- colon
 #- SecretKey.swift
 included :
 
